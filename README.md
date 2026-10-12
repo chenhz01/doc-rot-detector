@@ -4,6 +4,8 @@ A document reference existence validator. Scans your Markdown docs, extracts eve
 
 **Status:** v0.1.1 · Confidence: high (existence checks are exact) · as of 2026-10-11
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 Docs rot in a specific, mechanical way: a file gets renamed, a script moves, and every doc that mentioned it is now lying. Link checkers validate URLs on the internet; nothing cheap validates that the *local* paths your docs cite — in links, images, and inline code — still exist in your repo.
